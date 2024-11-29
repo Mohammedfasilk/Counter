@@ -1,0 +1,51 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #c2bfbf;
+}
+.wrap{
+    border: 5px solid rgba(105, 105, 105, 0.884);
+    padding: 5rem 2rem 5rem 2rem;
+    background: #000;
+    box-shadow: 10px 15px 15px rgb(58, 58, 58);
+}
+#counter{
+    font-size: 80px;
+    text-align: center;
+    font-family:'Audiowide';
+    color: rgb(217, 214, 214);
+}
+
+#countBtn,#resetBtn,#downBtn{
+    width: 100px;
+    height: 30px;
+    border: 3px solid rgb(87, 79, 79);
+    font-weight: bold;
+    background: linear-gradient(20deg,black,silver,black);
+    color: rgb(255, 255, 255);
+}
+nav{
+    position: fixed;
+}
+.menu-button{
+    
+}
+@media screen and (max-width:400px) {
+    .buttns{
+        display: flex;
+        flex-direction: column;
+        height: 8rem;
+        justify-content: space-between;
+        width: fit-content;
+    }
+    .wrap{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
